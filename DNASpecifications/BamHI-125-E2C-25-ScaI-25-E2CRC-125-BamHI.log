@@ -1,0 +1,136 @@
+====================================================================================================
+============================================= Job Info =============================================
+====================================================================================================
+Note: DNA specification name: BamHI-125-E2C-25-ScaI-25-E2CRC-125-BamHI
+Note: Type of job: GVVGCO (Gneration, Verification, Validation and GC Optimization)
+Note: Feature map contains 11 features:
+      0: PrecedingSeg-20: 
+            SeqType: Specified, SeqLenght: 20, Mutable: False
+            MayContain: None
+      1: BamHI: 
+            SeqType: Specified, SeqLenght: 6, Mutable: False
+            MayContain: General-BamHI
+      2: DNARand-125: 
+            SeqType: Generator, Mutable: True
+            MayContain: None
+      3: ZifBindingMotif-E2C: 
+            SeqType: Specified, SeqLenght: 18, Mutable: False
+            MayContain: Zif-E2C
+      4: DNARand-25: 
+            SeqType: Generator, Mutable: True
+            MayContain: None
+      5: Memory-ScaI: 
+            SeqType: Specified, SeqLenght: 6, Mutable: False
+            MayContain: Memory-ScaI
+      6: DNARand-25: 
+            SeqType: Generator, Mutable: True
+            MayContain: None
+      7: ZifBindingMotif-E2C-RC: 
+            SeqType: Specified, SeqLenght: 18, Mutable: False
+            MayContain: Zif-E2C
+      8: DNARand-125: 
+            SeqType: Generator, Mutable: True
+            MayContain: None
+      9: BamHI: 
+            SeqType: Specified, SeqLenght: 6, Mutable: False
+            MayContain: General-BamHI
+      10: TrailingSeg-20: 
+            SeqType: Specified, SeqLenght: 20, Mutable: False
+            MayContain: Forbidden-SpeI, Forbidden-NotI
+Note: Forbidden sequences:
+      Avoidable-AvrII: CCTAGG
+      Avoidable-NheI: GCTAGC
+      Avoidable-PvuII: CAGCTG
+      Avoidable-SapI(1): GCTCTTC
+      Avoidable-SapI(2): GAAGAGC
+      Avoidable-XhoI: CTCGAG
+      ENatMet-Dcm(1): CCAGG
+      ENatMet-Dcm(2): CCTGG
+      ENatRes-EcoKI(1): AACGTCG
+      ENatRes-EcoKI(2): GCACGTT
+      Forbidden-EcoRI: GAATTC
+      Forbidden-NotI: GCGGCCGC
+      Forbidden-PstI: CTGCAG
+      Forbidden-SpeI: ACTAGT
+      Forbidden-XbaI: TCTAGA
+      General-BamHI: GGATCC
+      General-NdeI: CATATG
+      Memory-ScaI: AGTACT
+      Zif-E2C: GGGGCCGGAGCCGCAGTG
+      Zif-PTF: ATCGGCGCCGGCGACATC
+Note: Target GC contents: 55.000000%
+Note: Optimize GC contents of the folowing regions(3):
+      Region 0 @[20:40]
+      Region 1 @[40:-40]
+      Region 2 @[-40:-20]
+Note: Number of optimization attempts: 10000
+====================================================================================================
+======================================= Result - Success! :D =======================================
+====================================================================================================
+Note: Best result found at iteration: 9172
+Note: Optimised GC contents of the folowing regions(3):
+      GC content @[-40:-20]: 55.000000%
+      GC content @[40:-40]: 55.095541%
+      GC content @[20:40]: 55.000000%
+Note: Non-weighted regional average CG contents:  55.031847%
+Note: Weighted regional average CG contents: 49.492386%
+Note: Feature map contains features(11):
+      0 @[0:20]: PrecedingSeg-20 (GC: 0.500000%)
+      1 @[20:26]: BamHI (GC: 0.666667%)
+      2 @[26:151]: DNARand-125 (GC: 0.536000%)
+      3 @[151:169]: ZifBindingMotif-E2C (GC: 0.833333%)
+      4 @[169:194]: DNARand-25 (GC: 0.520000%)
+      5 @[194:200]: Memory-ScaI (GC: 0.333333%)
+      6 @[200:225]: DNARand-25 (GC: 0.440000%)
+      7 @[225:243]: ZifBindingMotif-E2C-RC (GC: 0.833333%)
+      8 @[243:368]: DNARand-125 (GC: 0.512000%)
+      9 @[368:374]: BamHI (GC: 0.666667%)
+      10 @[374:394]: TrailingSeg-20 (GC: 0.600000%)
+Note: Overall GC contents: 0.550761%
+Note: DNA sequence:
+TTTATTATTTCGCCCGGCGCGGATCCCTCGAAGTATCGTCATTTACACGTTGTCGGTCCCAGACGTGACTACTTCGAGGTCCCCCGAGCTTTCGGGTCCG
+0         10        20        30        40        50        60        70        80        90        
+ATTTACTTGCCCTGAGAGTGATTGGGAAACGATACGCGCGTACAACTGGTGGGGGCCGGAGCCGCAGTGTCCTATTGTCCGTGGTACCGGTGATAGTACT
+100       110       120       130       140       150       160       170       180       190       
+ACTAGAATAGGAGGGGCTATATCCACACTGCGGCTCCGGCCCCTCCACCTAGTTGTCAAGGGGTTGTAGAGTGCGGTCTTTCACACATGTCGCCACCTAC
+200       210       220       230       240       250       260       270       280       290       
+AAGGCTTTCAGAACCAGAACTTGTAGTGTGACTTTTTTCGGCGGTGGAGTCGCCTGTTGGGCTAATGCGGATCCTACTAGTAGCGGCCGCTGCA
+300       310       320       330       340       350       360       370       380       390       
+Note: See final verification procedure for more information (displayed below)
+======================================== Reverifying Result ========================================
+Verifying DNA Sequence:
+TTTATTATTTCGCCCGGCGCGGATCCCTCGAAGTATCGTCATTTACACGTTGTCGGTCCCAGACGTGACTACTTCGAGGTCCCCCGAGCTTTCGGGTCCG
+0         10        20        30        40        50        60        70        80        90        
+ATTTACTTGCCCTGAGAGTGATTGGGAAACGATACGCGCGTACAACTGGTGGGGGCCGGAGCCGCAGTGTCCTATTGTCCGTGGTACCGGTGATAGTACT
+100       110       120       130       140       150       160       170       180       190       
+ACTAGAATAGGAGGGGCTATATCCACACTGCGGCTCCGGCCCCTCCACCTAGTTGTCAAGGGGTTGTAGAGTGCGGTCTTTCACACATGTCGCCACCTAC
+200       210       220       230       240       250       260       270       280       290       
+AAGGCTTTCAGAACCAGAACTTGTAGTGTGACTTTTTTCGGCGGTGGAGTCGCCTGTTGGGCTAATGCGGATCCTACTAGTAGCGGCCGCTGCA
+300       310       320       330       340       350       360       370       380       390       
+Forbidden site Forbidden-SpeI @[375:381] collides with Feature(s): TrailingSeg-20* @[374:394] 
+Forbidden site Forbidden-NotI @[382:390] collides with Feature(s): TrailingSeg-20* @[374:394] 
+Forbidden site General-BamHI @[20:26] collides with Feature(s): BamHI* @[20:26] 
+Forbidden site General-BamHI @[368:374] collides with Feature(s): BamHI* @[368:374] 
+Forbidden site Zif-E2C @[151:169] collides with Feature(s): ZifBindingMotif-E2C* @[151:169] 
+Forbidden site Memory-ScaI @[194:200] collides with Feature(s): Memory-ScaI* @[194:200] 
+* Denotes that detected Fobridden site is allowed to be in this Feature!
+** Denotes that this Feature can possibly be mutated to prevent the collision!
+Verifying DNA Sequence Reverse Complement:
+TGCAGCGGCCGCTACTAGTAGGATCCGCATTAGCCCAACAGGCGACTCCACCGCCGAAAAAAGTCACACTACAAGTTCTGGTTCTGAAAGCCTTGTAGGT
+0         10        20        30        40        50        60        70        80        90        
+GGCGACATGTGTGAAAGACCGCACTCTACAACCCCTTGACAACTAGGTGGAGGGGCCGGAGCCGCAGTGTGGATATAGCCCCTCCTATTCTAGTAGTACT
+100       110       120       130       140       150       160       170       180       190       
+ATCACCGGTACCACGGACAATAGGACACTGCGGCTCCGGCCCCCACCAGTTGTACGCGCGTATCGTTTCCCAATCACTCTCAGGGCAAGTAAATCGGACC
+200       210       220       230       240       250       260       270       280       290       
+CGAAAGCTCGGGGGACCTCGAAGTAGTCACGTCTGGGACCGACAACGTGTAAATGACGATACTTCGAGGGATCCGCGCCGGGCGAAATAATAAA
+300       310       320       330       340       350       360       370       380       390       
+Forbidden site Forbidden-SpeI @[13:19] collides with Feature(s): TrailingSeg-20* @[0:20] 
+Forbidden site Forbidden-NotI @[4:12] collides with Feature(s): TrailingSeg-20* @[0:20] 
+Forbidden site General-BamHI @[20:26] collides with Feature(s): BamHI* @[20:26] 
+Forbidden site General-BamHI @[368:374] collides with Feature(s): BamHI* @[368:374] 
+Forbidden site Zif-E2C @[151:169] collides with Feature(s): ZifBindingMotif-E2C-RC* @[151:169] 
+Forbidden site Memory-ScaI @[194:200] collides with Feature(s): Memory-ScaI* @[194:200] 
+* Denotes that detected Fobridden site is allowed to be in this Feature!
+** Denotes that this Feature can possibly be mutated to prevent the collision!
+DNA sequence and its reverse complement are bought valid! - Returning Sequence
+====================================================================================================
